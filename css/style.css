@@ -45,3 +45,15 @@ nav {
  font-size: 14px;
  text-decoration: none;
 }
+
+.container {
+ padding: 0 7%;
+}
+
+.container h1 {
+ font-size: 4vw;
+ font-weight: 500;
+ color: #fff;
+ text-align: center;
+ padding-top: 22%;
+}
