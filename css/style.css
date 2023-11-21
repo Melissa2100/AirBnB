@@ -443,7 +443,7 @@ nav.navbar-white .fa-bars {
 }
 
 .house-info {
- flex-basis: 50%;
+ flex-basis: 58%;
  color: #555;
 }
 
@@ -458,3 +458,24 @@ nav.navbar-white .fa-bars {
  font-size: 22px;
  margin: 4px 0;
 }
+
+.house-info i {
+ color: #ff5361;
+ font-size: 18px;
+ margin: 10px 1px;
+}
+
+.house-price {
+ text-align: right;
+}
+
+.house-price h4 {
+ font-size: 20px;
+}
+
+.house-price h4 span {
+ font-size: 16px;
+ font-weight: 500;
+}
+
+
