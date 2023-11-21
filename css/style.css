@@ -320,6 +320,8 @@ nav .fa-bars {
   font-size: 28px;
  }
  .active::after {
-  
+ transform: translate(0,50%);
+ left: -40px;
+ bottom: 50%;
  }
 }
