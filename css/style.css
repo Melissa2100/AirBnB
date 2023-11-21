@@ -412,4 +412,20 @@ nav.navbar-white .fa-bars {
 .list-container {
  margin-top: 50px;
  display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+}
+
+.left-col {
+ flex-basis: 70%;
+}
+
+.right-col {
+ flex-basis: 25%;
+}
+
+.left-col h1 {
+ color: #333;
+ font-weight: 600;
+ margin-bottom: 30px;
 }
