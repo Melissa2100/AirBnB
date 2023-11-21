@@ -535,5 +535,43 @@ nav.navbar-white .fa-bars {
 }
 
 .pagination span {
-  
+  width: 40px;
+  margin: 10px 8px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  /* border-radius: 50%; */
+  cursor: pointer;
+}
+
+.pagination .current {
+  background: #333;
+  color: #fff;
+  border-radius: 50%;
+}
+
+/* || for small screen listing page */
+@media only screen and (max-width: 700px) {
+  .list-container {
+    margin-top: 150px;
+  }
+  .left-col, .right-col, .house-img, .house-info {
+    flex-basis: 100%;
+  }
+  .left-col h1 {
+    font-size: 22px;
+  }
+  .house-info h3 {
+    font-size: 18px;
+  }
+  .house-info i {
+    font-size: 16px;
+  }
+  .pagination span {
+    margin: 10px 2px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+  }
 }
