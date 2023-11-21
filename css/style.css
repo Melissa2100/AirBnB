@@ -272,11 +272,12 @@ nav {
 .active::after {
  content: '';
  background: #fff;
- width: 25px;
- height: 2px;
+ color: #fff;
+ width: 25%;
+ height: 25%;
  position: absolute;
- left: 50%;
  transform: translateX(-50%);
+ left: 50%;
  bottom: -12px;
  border-radius: 2px;
 }
