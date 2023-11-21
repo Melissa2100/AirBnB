@@ -400,3 +400,16 @@ nav .fa-bars {
   background: #ff5361;
   color: #fff;
 }
+
+nav.navbar-white .fa-bars {
+ color: #000;
+}
+
+.navbar-white .active::after {
+ background: #ff5361;
+}
+
+.list-container {
+ margin-top: 50px;
+ display: flex;
+}
