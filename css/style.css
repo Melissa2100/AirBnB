@@ -428,6 +428,7 @@ nav.navbar-white .fa-bars {
   color: #333;
   font-weight: 600;
   margin-bottom: 30px;
+  padding-top: 2px;
 }
 
 .house {
@@ -574,4 +575,22 @@ nav.navbar-white .fa-bars {
     line-height: 30px;
     font-size: 12px;
   }
+}
+
+/* || hpuse details page */
+.house-details {
+  padding: 0 12%;
+}
+
+.house-title {
+  margin-top: 50px;
+}
+
+.house-title h1 {
+  font-weight: 600;
+}
+
+.house-title .row {
+  display: flex;
+  flex-wrap: wrap;
 }
